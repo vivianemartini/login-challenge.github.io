@@ -8,37 +8,49 @@
     <title>Login - Challenge</title>
 </head>
 <body>
-    <main>
-        <section>
+    <main class="container">
+        <section class="img-container">
             <div>
-                <img src="" alt="">
+                <img src="img/img1.png" alt="">
             </div>
         </section>
 
-        <section>
-            <header>
-                <p>Bem vindo de volta</p>
-                <h1>Faça login na sua conta</h1>
-            </header>
+        <section class="login-container">
+            <main class="main-container">
+                <header class="header-container">
+                    <p class="login-text">Bem vindo de volta</p>
+                    <h1 class="login-title">Faça login na sua conta</h1>
+                </header>
 
-            <main>
-                <label for="">E-mail</label>
-                <input type="text">
-                <label for="">Senha</label>
-                <input type="text">
+                <section class="login-form">
+                    <label class="form-text" for="email">E-mail</label>
+                    <input type="text" placeholder="codelandia@gmail.com" name="email" id="email" required>
+                    <label class="form-text" for="password">Senha</label>
+                    <input type="password" placeholder="*********" name="psw" id="psw" required>
+                </section>
+                
+                <div class="checkbox-container">
+                    <div class="checkbox-box"> 
+                        <input class="checkbox" type="radio" name="radio">
+                        <p class="checkbox-text-1">Lembre de mim</p>
+                    </div>
+                    <p class="checkbox-text-2">Esqueceu sua senha?</p>
+                </div>   
 
-                <div>
-                    <input type="checkbox">
-                    <label for="">Lembre de mim </label>
-                    <p>Esqueceu sua senha? </p>
-                </div>
-
-                <button>Entrar</button>
-                <button>Ou faça login com o Google </button>
+                <section class="btn-container">
+                    <button class="btn-entrar">Entrar</button>
+                    <div class="btn-google"> 
+                        <img class="google-logo" src="img/google.png" alt="">
+                        <p>Ou faça login com o Google</p>
+                    </div>
+                </section>
             </main>
-
-            <footer><p>Não tem uma conta?<p> Cadastre-se</p></p></footer>
+            <footer>
+                <p>Não tem uma conta?</p>
+                <p class="blue">Cadastre-se</p>  
+            </footer>
         </section>
+            
     </main> 
 </body>
 </html>
