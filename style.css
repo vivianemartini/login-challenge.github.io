@@ -229,3 +229,16 @@ footer p {
     color: var(--blue);
 
 }
+
+
+@media (max-width: 664px) {
+    .img-container {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .img-container {
+        display: none;
+    }
+}
