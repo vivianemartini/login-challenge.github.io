@@ -241,4 +241,11 @@ footer p {
     .img-container {
         display: none;
     }
+    .container {
+        align-items: start;
+        margin-top: 40px;
+    }
+    footer {
+        margin-top: 80px;
+    }
 }
